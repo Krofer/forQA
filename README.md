@@ -7,6 +7,7 @@
 
 Технологии:
 Backend: python, flask, sqlalchemy
+
 Frontend: CRA, axios, bootstrap, styled-components
 
 ## Использование Docker
