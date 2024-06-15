@@ -12,7 +12,7 @@ services:
       - FLASK_APP=wsgi.py
       - FLASK_ENV=development
       - PYTHONPATH=/app
-    command: sh -c "ls -l /app && flask run --host=0.0.0.0"
+    command: flask run --host=0.0.0.0"
 
   frontend:
     build:
