@@ -56,8 +56,17 @@ flask db migrate -m "Initial migration"
 flask db upgrade
 ```
 
-### Шаг 5: Запуск приложения
+### Шаг 5: Запуск бекенда
 
 ```sh
 flask run
+```
+
+### Шаг 5: Запуск фронта
+
+```sh
+cd ..
+cd frontend
+npm install
+npm start
 ```
